@@ -15,3 +15,15 @@ If webroot can't be reached
 6. change to: ProxyPassMatch ^/(.*\.php(/.*)?)$ fcgi://127.0.0.1:9000/var/www/web/$1
 7. save
 8. sudo  /etc/init.d/apache2 restart
+
+Connect to mysql with Sequal Pro
+================================
+
+1. connect using ssh
+2. MySQL Host: 127.0.0.1
+3. Usernaam: root
+4. Password: root
+5. SSH Host: 192.168.56.101 or configured ip
+6. SSH User: Vagrant
+7. SSH Key: .../dot/ssh/insecure_private_key
+8. SSH Port: 22
