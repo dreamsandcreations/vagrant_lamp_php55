@@ -24,6 +24,6 @@ Connect to mysql with Sequal Pro
 3. Usernaam: root
 4. Password: root
 5. SSH Host: 192.168.56.101 or configured ip
-6. SSH User: Vagrant
+6. SSH User: vagrant
 7. SSH Key: .../dot/ssh/insecure_private_key
 8. SSH Port: 22
